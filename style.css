@@ -1,0 +1,328 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Speedee", sans-serif;
+}
+
+/* HEADER */
+
+.header {
+  position: relative;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-list li {
+  list-style: none;
+  float: left;
+}
+
+.header-list li a {
+  color: Black;
+  text-align: center;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header-list li a:hover {
+  color: #ffb700;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 300px;
+}
+
+.location {
+  width: 10px;
+  height: 10px;
+}
+
+/* TOP-WRAPPER */
+
+.top-wrapper {
+  width: 100%;
+}
+
+.top-image {
+  width: 100%;
+}
+
+/* PROMO-WRAPPER */
+
+.promo-wrapper {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+.promo-wrapper h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.promo-list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.promo-item {
+  padding: 15px;
+  width: 25%;
+  transition: 0.3s;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.promo-item:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.promo-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.promo-item h3 {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.promo-item p {
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(126, 125, 125);
+}
+
+.promo-item a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.btn-promo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bolder;
+  margin: 30px 0 50px 0;
+}
+
+/* MENU-WRAPPER */
+
+.menu-wrapper {
+  height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.menu-wrapper h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.menus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* MENU-LIST */
+
+.menu {
+  margin: 50px;
+}
+
+.menu:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+
+.menu-icon img {
+  width: 200px;
+}
+
+.menu-icon img:hover {
+  transform: scale(1.1);
+}
+
+.text-contents {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* KIDS-WRAPPER */
+
+.section-kids {
+  background-color: #ffbc0d;
+  height: 450px;
+}
+
+.kids-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-kids {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.caption-kids {
+  margin: 50px;
+}
+
+.caption-kids h1 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.caption-kids p {
+  font-size: 16px;
+  margin: 15px 0 15px 0;
+}
+
+.more {
+  padding: 15px 40px;
+  background-color: #d72323;
+  cursor: pointer;
+  box-shadow: 0 7px #903749;
+  font-weight: bolder;
+}
+
+.more:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.promo {
+  padding: 15px 40px;
+  background-color: #d72323;
+  cursor: pointer;
+  box-shadow: 0 7px #903749;
+}
+
+.promo:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/* FOOTER */
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  font-weight: bolder;
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.row {
+  justify-content: center;
+}
+
+.coloumn ul {
+  margin-top: 20px;
+  margin-right: 80px;
+}
+
+.coloumn ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.coloumn ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.coloumn ul li a:hover {
+  color: #ffb700;
+}
+
+.coloumn ul .sosmed {
+  width: 20px;
+}
+
+.coloumn ul .store {
+  width: 80px;
+}
+
+.media li {
+  float: left;
+  margin-right: 10px;
+}
+
+.footer input {
+  margin-top: 30px;
+  height: 30px;
+  max-width: 100%;
+  padding-left: 20px;
+}
+
+.navbar {
+  height: 250px;
+}
+
+.credit {
+  height: 50px;
+  background-color: #f7f7f7;
+}
+
+.footer-credit {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-credit p {
+  margin-right: 700px;
+}
+
+.footer-credit ul li {
+  float: left;
+  list-style: none;
+  margin-right: 30px;
+}
